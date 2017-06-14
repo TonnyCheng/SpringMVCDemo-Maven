@@ -14,7 +14,6 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- spring begin -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -51,7 +50,6 @@
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -63,13 +61,11 @@
 		<finalName>my</finalName>
 		<plugins>
 			<plugin>
-
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-
 			</plugin>
 		</plugins>
 	</build>
